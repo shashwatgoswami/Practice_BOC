@@ -1,0 +1,15 @@
+{
+  "name": "boc.service.datalayer",
+  "version": "1.0.0",
+  "description": "Module for accessing data from the database",
+  "main": "datalayer_index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shashwat Goswami",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mssql": "^4.0.7",
+    "mssql": "^4.1.0"
+  }
+}
