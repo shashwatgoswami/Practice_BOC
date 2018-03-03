@@ -1,17 +1,16 @@
-module boc.service.datalayer.databaseObjects {
-    /**
-     * Database connection interface
-     */
-    export interface IDbConnection {
+import * as conn from "./ConnectionObject";
+/**
+ * Database connection interface
+ */
+export interface IDbConnection {
 
         /**
          * Connection string
          */
-        ConnectionObject: ConnectionObject;
+       ConnectionObjects: conn.ConnectionObject;
 
-        /**
-         * Connection timeout property
-         */
-        ConnectionTimeout: number;
-    }
-}
+       /**
+        * Connection timeout property
+        */
+       ConnectionTimeout: number;
+   }
